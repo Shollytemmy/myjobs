@@ -1,0 +1,47 @@
+.latest_news{
+    @apply flex pt-[100px] justify-center gap-[226px] items-center mb-[140px]
+}
+
+.left__side{
+    @apply w-[393px] leading-[64px] font-[700] font-heading uppercase whitespace-pre text-[48px] tracking-[1.4px] text-[#00717D] h-[128px] mb-[38px] not-italic
+
+}
+
+.right__side{
+    @apply bg-hPrimary text-ofWhite w-[466px] h-[283px] mb-[38px] font-heading
+
+}
+
+.news__update{
+    @apply font-heading text-[24px] leading-[58px] font-bold ml-[24px] w-[216px] text-center
+}
+
+.news__card{
+    @apply w-[418px] h-[192px] font-heading leading-8 font-normal text-[20px] tracking-[-0.4px] mx-[24px] whitespace-pre
+}
+
+.title__job{
+    @apply font-heading text-[32px] leading-[33px] font-medium not-italic text-hPrimary ml-[40px] mt-[40px]
+}
+
+.left__header{
+    @apply w-[65%]
+}
+
+.nature__job{
+    @apply ml-[40px] font-normal text-[20px] leading-6 text-brownish font-heading
+}
+
+.level__job{
+    @apply ml-[40px] flex gap-2 text-brownish text-[20px] leading-[24px] font-heading
+}
+
+.right__header{
+    @apply w-[35%] flex flex-col text-right mr-[40px]
+}
+
+.name__company{
+    @apply font-bold text-[24px] leading-[29px] text-brownish tracking-[0.5px] font-heading
+}
+
+

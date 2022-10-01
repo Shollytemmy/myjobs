@@ -1,0 +1,44 @@
+body{
+ 
+}
+
+.Foot_table{
+  @apply w-[30%] border-separate border-spacing-6
+}
+
+.header{
+  @apply text-xl leading-[24px] font-medium not-italic font-tableH text-white tracking-['-0.6px']
+}
+.tbody{
+  @apply text-[18px] leading-[20px] font-medium font-tableH text-ofWhite 
+}
+
+.footer{
+  @apply flex flex-col bg-hPrimary justify-between 
+}
+
+
+.text__footer{
+  @apply ml-14 font-normal font-tableH text-[20px] leading-[24px] not-italic
+}
+
+.bottom_aside__footer{
+  @apply flex justify-between p-4 items-center
+}
+
+.social_icons{
+  @apply flex justify-between
+}
+
+.icons__footer{
+  @apply bg-icons m-2 w-[50px] h-[50px] rounded-full flex justify-center items-center
+}
+
+.icons{
+  @apply bg-white
+}
+
+tr, td{
+  @apply text-center
+}
+

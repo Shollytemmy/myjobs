@@ -1,0 +1,15 @@
+.nav_btn{
+    @apply py-3 px-8 font-semibold text-lg leading-7
+}
+
+.signIn_btn{
+    @apply py-3 px-8 text-[18px] leading-[27px]  w-[366px] h-[72px]
+}
+
+.more_btn{
+    @apply w-[262px] h-[60px] py-3 px-8 font-medium text-[20px] leading-[30px]
+}
+
+.moreUpdate_btn{
+    @apply text-[20px] leading-[30px] w-[314px] h-[60px] py-3 px-8 rounded
+}

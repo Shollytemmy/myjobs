@@ -1,0 +1,1 @@
+export const options = ["filter", "Managements", "Bio-Chemical", "Informatics"]

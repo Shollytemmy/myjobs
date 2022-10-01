@@ -1,0 +1,9 @@
+.navBar{
+    @apply flex justify-between items-center leading-[48px] font-heading font-medium text-xl w-1/2 border-red-500 p-3
+
+    
+}
+
+.nav__items {
+    @apply flex justify-between w-[75%]
+}

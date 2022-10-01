@@ -1,0 +1,60 @@
+
+
+.img__div{
+   @apply w-[428px] h-[208px]
+}
+.grad_txt{
+   @apply font-heading font-medium text-[48px] leading-[68.5px] tracking-[1.5px]
+}
+
+.job_grad_txt{
+   @apply w-[510px] h-[137px] mt-[4px] capitalize text-center font-heading font-medium text-[48px] leading-[68.5px] tracking-[1.5px]
+}
+
+.input{
+   @apply block w-[277px] h-[60px] px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 mb-[60px]
+}
+
+.form-select {
+  @apply mb-3 block mx-[30px] w-[277px] h-[60px] px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 
+}
+
+.search{
+   @apply relative flex-auto min-w-0 block w-[584px] h-[60px] px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0
+}
+
+.lorem{
+   @apply w-[488px] h-[64px] text-[24px] font-heading leading-[33px] mb-[48px] text-hPrimary
+}
+
+.central__text{
+   @apply max-w-[1128px] h-[144px] font-heading text-[24px] font-normal leading-[36px] tracking-[-0.4px] mx-auto  mt-[82px] text-hPrimary
+}
+
+.recent_post{
+   @apply text-greyLight w-[415px] h-[39px] font-[Roboto] font-medium text-[32px] leading-[39px] mx-[5rem] my-[4rem] 
+}
+
+.requirement__text{
+   @apply text-[24px] leading-[32px] font-medium w-[489px] h-[33px] mb-[18px]
+}
+
+.job__description{
+   @apply text-[22px] font-heading font-normal leading-[32px] text-greyLight 
+}
+
+.description__text{
+   @apply text-[22px] font-heading font-normal leading-[32px]
+}
+
+.company_name{
+   @apply text-[32px] text-hPrimary leading-[33px] font-medium mb-[i6px] font-heading
+}
+
+.company_location{
+   @apply text-[22px] font-normal leading-[28px] font-heading text-greyLighter mb-[34px]
+}
+
+.btn_more_div{
+   @apply mb-[136px] mt-[76px] flex items-center mx-auto w-[314px] h-[60px]
+}
