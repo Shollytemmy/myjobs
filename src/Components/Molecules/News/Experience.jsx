@@ -14,10 +14,10 @@ export const Experience = ({levels, experiences}) => {
        
         <div>
             {experiences.map((exp, idx) => <div key={idx} 
-             className='text-[20px] font-heading font-normal leading-[30px]' >{exp}</div>)}
+             className='text-[20px] font-heading font-normal leading-[30px]'>{exp}</div>)}
             
         </div>
-        <div className='flex justify-around w-[55%] items-center'>
+        <div className='flex gap-9 w-[50%] items-center'>
             <Image text="/images/share.png" />
             <Button btnName={'See more'} color="teal" customClasses="more_btn" />
         </div>

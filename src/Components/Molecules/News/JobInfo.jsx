@@ -6,7 +6,7 @@ export const JobInfo = ({company:{name, specialization, location }, job:{title, 
   return (
     <section className='mx-[127px]'>
         <article className='border mb-[60px]'>
-            <header className='header_news flex gap-4 items-center border-b'>
+            <header className='header_news flex gap-4 items-center border-b p-4'>
                 <div className='left__header'>
                     <div className='title__job'>{title}</div>
                     <div className='nature__job'>{nature}</div>
