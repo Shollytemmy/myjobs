@@ -1,5 +1,5 @@
 import React from 'react'
-import { JobCard } from '../Molecules/JobCard'
+import { JobCard } from '../Molecules/Home/JobCard'
 import Button from '../Atoms/Buttons'
 
 export const CardSection = ({handleClick}) => {

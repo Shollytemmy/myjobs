@@ -1,8 +1,15 @@
 import React from 'react'
 import { Image } from '../../Atoms/ImageComponent/Image'
 import { Experience } from './Experience'
+import { Link } from 'react-router-dom'
+import Button from '../../Atoms/Buttons'
 
-export const JobInfo = ({company:{name, specialization, location }, job:{title, nature, offer, stack, proposedSalary, postedDate}, summary, experiences, logo, levels}) => {
+export const JobInfo = ({
+    company:{name, specialization, location },
+     job:{title, nature, offer, stack, proposedSalary, 
+        postedDate},
+         summary, experiences, logo, levels, id
+        }) => {
   return (
     <section className='mx-[127px]'>
         <article className='border mb-[60px]'>
@@ -18,7 +25,7 @@ export const JobInfo = ({company:{name, specialization, location }, job:{title, 
                     </div>
                 </div>
                 <div className='right__header'>
-                    <span className='name__company'>{name}</span>
+                  <Link to={`/job/${id}`}><span className='name__company'>{name}</span></Link>  
                     <span>{specialization}</span>
                     <span>{location}</span>
                 </div>
@@ -33,9 +40,16 @@ export const JobInfo = ({company:{name, specialization, location }, job:{title, 
                         <p className='w-[768px] whitespace-pre text-brownish font-heading font-normal leading-[32px] text-[22px]'>{summary}</p>
                     </div>
                     <div className=''>
-                        <Experience levels={levels} experiences={experiences} />
+                        <Experience
+                         levels={levels}
+                          experiences={experiences}
+                          share="/images/share.png"
+                          button = {<Button btnName={'See more'} color="teal" customClasses="more_btn" />  }
+                           />
                     </div>
                 </div>
+
+                
             </article>
         </article>
     </section>

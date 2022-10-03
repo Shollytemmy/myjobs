@@ -83,8 +83,20 @@ ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros`,
              "Mid Level",
              "4 Years"
         ],
-        levels: ["Minimum Qualification", "Experience Level", "Experience Length"]
+        levels: ["Minimum Qualification", "Experience Level", "Experience Length"],
+
+        jobDescription:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim hac massa consectetur vel et mauris. Ac mauris pulvinar eu urna ut ut. Tellus interdum duis proin morbi eget urna. Massa sed ut vulputate ullamcorper nulla sit. Id nulla mattis velit integer eget lacus ut lorem. Dolor ridiculus etiam feugiat risus ac dignissim. Odio tortor nulla consequat, adipiscing. Nibh aliquam praesent vel non ac. Phasellus laoreet felis velit amet pellentesque. Id ac facilisis purus aliquet sodales. Vel ipsum massa augue hendrerit in turpis sed. Accumsan eget et sed mauris.
+Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrices quis sagittis arcu. Pellentesque erat risus.`,
+        about:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius et tortor, facilisis ut amet auctor. Quisque facilisi rhoncus ac placerat lectus congue nulla. Et adipiscing neque pretium vivamus adipiscing amet, elementum. Eu enim nisl aenean gravida turpis urna, fringilla. Non tempus tortor lobortis sit consectetur viverra in. Leo, lectus viverra bibendum arcu praesent aliquet aliquam. Sagittis morbi a cursus sollicitudin ornare ac vel egestas faucibus. Mauris feugiat aliquam eu tortor nibh ornare hac.`,
+
+        skills:[
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi"
+        ],
     },
+    
 
     {
         id: 2,
@@ -113,7 +125,17 @@ ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros`,
              "Mid Level",
              "4 Years"
         ],
-        levels: ["Minimum Qualification", "Experience Level", "Experience Length"]
+        levels: ["Minimum Qualification", "Experience Level", "Experience Length"],
+        jobDescription:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim hac massa consectetur vel et mauris. Ac mauris pulvinar eu urna ut ut. Tellus interdum duis proin morbi eget urna. Massa sed ut vulputate ullamcorper nulla sit. Id nulla mattis velit integer eget lacus ut lorem. Dolor ridiculus etiam feugiat risus ac dignissim. Odio tortor nulla consequat, adipiscing. Nibh aliquam praesent vel non ac. Phasellus laoreet felis velit amet pellentesque. Id ac facilisis purus aliquet sodales. Vel ipsum massa augue hendrerit in turpis sed. Accumsan eget et sed mauris.
+Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrices quis sagittis arcu. Pellentesque erat risus.`,
+        about:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius et tortor, facilisis ut amet auctor. Quisque facilisi rhoncus ac placerat lectus congue nulla. Et adipiscing neque pretium vivamus adipiscing amet, elementum. Eu enim nisl aenean gravida turpis urna, fringilla. Non tempus tortor lobortis sit consectetur viverra in. Leo, lectus viverra bibendum arcu praesent aliquet aliquam. Sagittis morbi a cursus sollicitudin ornare ac vel egestas faucibus. Mauris feugiat aliquam eu tortor nibh ornare hac.`,
+
+        skills:[
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi"
+        ],
     },
 
     {
@@ -143,7 +165,17 @@ ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros`,
              "Mid Level",
              "4 Years"
         ],
-        levels: ["Minimum Qualification", "Experience Level", "Experience Length"]
+        levels: ["Minimum Qualification", "Experience Level", "Experience Length"],
+        jobDescription:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim hac massa consectetur vel et mauris. Ac mauris pulvinar eu urna ut ut. Tellus interdum duis proin morbi eget urna. Massa sed ut vulputate ullamcorper nulla sit. Id nulla mattis velit integer eget lacus ut lorem. Dolor ridiculus etiam feugiat risus ac dignissim. Odio tortor nulla consequat, adipiscing. Nibh aliquam praesent vel non ac. Phasellus laoreet felis velit amet pellentesque. Id ac facilisis purus aliquet sodales. Vel ipsum massa augue hendrerit in turpis sed. Accumsan eget et sed mauris.
+Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrices quis sagittis arcu. Pellentesque erat risus.`,
+        about:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius et tortor, facilisis ut amet auctor. Quisque facilisi rhoncus ac placerat lectus congue nulla. Et adipiscing neque pretium vivamus adipiscing amet, elementum. Eu enim nisl aenean gravida turpis urna, fringilla. Non tempus tortor lobortis sit consectetur viverra in. Leo, lectus viverra bibendum arcu praesent aliquet aliquam. Sagittis morbi a cursus sollicitudin ornare ac vel egestas faucibus. Mauris feugiat aliquam eu tortor nibh ornare hac.`,
+
+        skills:[
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi"
+        ],
     },
 
       {
@@ -173,8 +205,22 @@ ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros`,
              "Mid Level",
              "4 Years"
         ],
-        levels: ["Minimum Qualification", "Experience Level", "Experience Length"]
+        levels: ["Minimum Qualification", "Experience Level", "Experience Length"],
+
+        jobDescription:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim hac massa consectetur vel et mauris. Ac mauris pulvinar eu urna ut ut. Tellus interdum duis proin morbi eget urna. Massa sed ut vulputate ullamcorper nulla sit. Id nulla mattis velit integer eget lacus ut lorem. Dolor ridiculus etiam feugiat risus ac dignissim. Odio tortor nulla consequat, adipiscing. Nibh aliquam praesent vel non ac. Phasellus laoreet felis velit amet pellentesque. Id ac facilisis purus aliquet sodales. Vel ipsum massa augue hendrerit in turpis sed. Accumsan eget et sed mauris.
+Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrices quis sagittis arcu. Pellentesque erat risus.`,
+
+        about:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius et tortor, facilisis ut amet auctor. Quisque facilisi rhoncus ac placerat lectus congue nulla. Et adipiscing neque pretium vivamus adipiscing amet, elementum. Eu enim nisl aenean gravida turpis urna, fringilla. Non tempus tortor lobortis sit consectetur viverra in. Leo, lectus viverra bibendum arcu praesent aliquet aliquam. Sagittis morbi a cursus sollicitudin ornare ac vel egestas faucibus. Mauris feugiat aliquam eu tortor nibh ornare hac.`,
+
+        skills:[
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi"
+        ],
     },
+
+    
 
     
 ]
@@ -186,3 +232,15 @@ ipsum dolor sit amet, consectetur adipiscing elit. Mi pellentesque eros`,
 
 
      
+
+
+// jobDescription:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim hac massa consectetur vel et mauris. Ac mauris pulvinar eu urna ut ut. Tellus interdum duis proin morbi eget urna. Massa sed ut vulputate ullamcorper nulla sit. Id nulla mattis velit integer eget lacus ut lorem. Dolor ridiculus etiam feugiat risus ac dignissim. Odio tortor nulla consequat, adipiscing. Nibh aliquam praesent vel non ac. Phasellus laoreet felis velit amet pellentesque. Id ac facilisis purus aliquet sodales. Vel ipsum massa augue hendrerit in turpis sed. Accumsan eget et sed mauris.
+// Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrices quis sagittis arcu. Pellentesque erat risus.`,
+//         about:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius et tortor, facilisis ut amet auctor. Quisque facilisi rhoncus ac placerat lectus congue nulla. Et adipiscing neque pretium vivamus adipiscing amet, elementum. Eu enim nisl aenean gravida turpis urna, fringilla. Non tempus tortor lobortis sit consectetur viverra in. Leo, lectus viverra bibendum arcu praesent aliquet aliquam. Sagittis morbi a cursus sollicitudin ornare ac vel egestas faucibus. Mauris feugiat aliquam eu tortor nibh ornare hac.`,
+
+//         skills:[
+//             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi"
+//         ],

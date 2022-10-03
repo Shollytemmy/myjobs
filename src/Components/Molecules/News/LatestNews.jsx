@@ -16,7 +16,7 @@ expression of Apple Watch returns with two
 — titanium and ceramic.`
   return (
     <section>
-        <article className='latest_news'>
+        <article className='latest_news'> 
             <div className='left__side'>
                 <h1>{latest}</h1>
             </div>

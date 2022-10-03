@@ -1,13 +1,14 @@
 import React from 'react'
-import Button from '../../Atoms/Buttons'
+// import Button from '../../Atoms/Buttons'
 import { Image } from '../../Atoms/ImageComponent/Image'
 
 
-export const Experience = ({levels, experiences}) => {
+export const Experience = ({levels, experiences, share, button }) => {
+  console.log();
   return (
     <div className='flex gap-6'>
         <div>
-             {levels.map((level) => <div><li
+             {levels.map((level, i) => <div key={i}><li
              className='text-[20px] font-heading font-normal leading-[30px]'>{level}</li></div>)}
             
         </div>
@@ -17,9 +18,10 @@ export const Experience = ({levels, experiences}) => {
              className='text-[20px] font-heading font-normal leading-[30px]'>{exp}</div>)}
             
         </div>
-        <div className='flex gap-9 w-[50%] items-center'>
-            <Image text="/images/share.png" />
-            <Button btnName={'See more'} color="teal" customClasses="more_btn" />
+        <div className='flex gap-3 w-[50%] items-center justify-end'>
+            <Image text={share} />
+            {button}
+            {/* <Button  btnName={'See more'} color="teal" customClasses="more_btn" /> */}
         </div>
 
         

@@ -1,6 +1,6 @@
 import React from 'react'
-import { jobLists } from '../../data/data'
-import { RecentJobs } from '../../Pages/RecentJobs'
+import { jobLists } from '../../../data/data'
+import { RecentJobs } from '../../../Pages/RecentJobs'
 
 
 export const JobCard = ({handleClick}) => {
