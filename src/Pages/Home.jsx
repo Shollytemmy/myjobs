@@ -24,7 +24,7 @@ import './home.css'
        <section className='container mx-auto my-auto '>
         <Hero handleClick ={handleClick} />
          </section>
-          <CardSection  handleClick = {handleClick} />
+          <CardSection />
           
 
     </PageTemplate>

@@ -16,7 +16,7 @@ export const jobLists = [
 
      {
         id: 2,
-         logo: "images/it-7.png",
+         logo: "public/images/it-2",
         name: "Item 7",
         location: "Ilorin Nigeria",
         role: "Restaurant Manager",
@@ -58,7 +58,7 @@ export const jobLists = [
 export const jobInfo = [
     {
         id: 1,
-        logo: "images/cv2.png",
+        logo: "/images/cv2.png",
         company:{
             name: "Code Village Limited",
             specialization: "Software Development",
@@ -100,7 +100,7 @@ Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrice
 
     {
         id: 2,
-        logo: "images/sec.png",
+        logo: "/images/sec.png",
         company:{
             name: "Oriental Hotel",
             specialization: "Hotel, Restaurant, Bar",
@@ -140,7 +140,7 @@ Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrice
 
     {
         id: 3,
-        logo: "images/it-2.png",
+        logo: "/images/it-2.png",
         company:{
             name: "Item7 Party Rice & Shawama",
             specialization: "Restraunt and Eatery",
@@ -180,7 +180,7 @@ Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrice
 
       {
         id: 4,
-        logo: "images/fem.png",
+        logo: "/images/fem.png",
         company:{
             name: "FemTech",
             specialization: "Computer and Electronics",

@@ -1,16 +1,16 @@
 import React from 'react'
 import { ExactJob } from './ExactJob'
+import { RelatedJobsSearch } from './RelatedJobsSearch'
 
-
-export const SingleJob = (
-    {  company:{name, specialization, location },
+export const MoreInfo = (
+  {id, company:{name, specialization, location },
      job:{title, nature, offer, stack, proposedSalary, 
         postedDate}, jobDescription, about,
-         summary, experiences, logo, levels, skills}
-         ) => {
+         summary, experiences, logo, levels, skills, jobData}
+) => {
   return (
     <div>
-        <ExactJob 
+             <ExactJob 
         name={name}
         specialization={specialization}
         location={location}
@@ -27,14 +27,10 @@ export const SingleJob = (
         logo = {logo}
         levels = {levels}
         skills = {skills}
+        id={id}
        
          />
-        
-        
+         <RelatedJobsSearch jobData ={jobData} />
     </div>
   )
-
-  // const getJobData = jobInfo[jobId - 1]
-
-  //   console.log(getJobData);
 }

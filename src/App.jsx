@@ -10,6 +10,7 @@ import { MainJob } from "./Components/Molecules/Jobs";
 import "./App.scss"
 import { Error404 } from "./Pages/Error404";
 import { jobInfo } from "./data/data";
+import { SeeMoreInfo } from "./Pages/Routes/SeeMoreInfo";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       {/* <NavLogics /> */}
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path="seeMore/:jobID" element={<SeeMoreInfo jobInfo={jobInfo}  />} />
          <Route path='news' element={<News />} />
-         <Route path="job/:jobId" element={<MainJob jobInfo={jobInfo} />} />
-          <Route path='jobs' element={<Jobs />} />
+         <Route path="job/:jobId" element={<MainJob  jobInfo={jobInfo} />} />
+          <Route path='jobs' element={<News />} />
            <Route path='/about' element={<About />} />
             <Route path='contact' element={<Contact />} />
             <Route path="*" element={<Error404 />} />

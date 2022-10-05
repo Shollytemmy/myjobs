@@ -1,19 +1,18 @@
 import React from 'react'
 import { Image } from '../../Atoms/ImageComponent/Image'
-import { Experience } from './Experience'
-import { Link } from 'react-router-dom'
 import Button from '../../Atoms/Buttons'
+import { Experience } from '../News/Experience'
 
-export const JobInfo = ({
-    company:{name, specialization, location },
+export const JobSearch = (
+    {company:{name, specialization, location },
      job:{title, nature, offer, stack, proposedSalary, 
         postedDate},
          summary, experiences, logo, levels, id
-        }) => {
+       }
+         ) => {
   return (
-    <section className='mx-[127px]'>
-        <article className='border mb-[60px]'>
-            <header className='header_news flex gap-4 items-center border-b p-4'>
+    <article>
+         <header className='header_news flex gap-4 items-center border-b p-4'>
                 <div className='left__header'>
                     <div className='title__job'>{title}</div>
                     <div className='nature__job'>{nature}</div>
@@ -54,7 +53,8 @@ export const JobInfo = ({
 
                 
             </article>
-        </article>
-    </section>
+ 
+
+    </article>
   )
 }

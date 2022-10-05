@@ -8,7 +8,7 @@ export const MainJob = ({jobInfo}) => {
     // console.log(useParams())
     const getJobData = jobInfo[jobId - 1]
 
-    console.log(jobInfo[1 - 1]);
+    // console.log(getJobData);
    
   return (
     <PageTemplate>

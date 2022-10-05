@@ -5,27 +5,27 @@ import { ThreeButtons } from './ThreeButtons'
 export const Skills = ({skills}) => {
   return (
     <div>
-        <div>
+        <div className='mb-[32px]'>
 
-        <h1>Required skills and competency</h1>
+        <h1 className='font-heading font-medium text-[23px] leading-[29px] text-hPrimary p-[4px] mb-[12px]'>Required skills and competency</h1>
         {
-            skills.map((skill) => <li>{skill}</li>)
+            skills.map((skill, idx) => <li key={idx} className='text-brownish font-heading font-normal text-[22px] leading-[36px]'>{skill}</li>)
         }
         </div>
 
-        <div>
+        <div className='mb-[32px]'>
 
-        <h1>Requirements</h1>
+        <h1 className='font-heading font-medium text-[23px] leading-[29px] text-hPrimary p-[4px] mb-[12px]' >Requirements</h1>
         {
-            skills.map((skill) => <li>{skill}</li>)
+            skills.map((skill, idx) => <li key={idx} className='text-brownish font-heading font-normal text-[22px] leading-[36px]'>{skill}</li>)
         }
         </div>
 
-        <div>
+        <div className='mb-[100px]'>
 
-        <h1>Important safety tips</h1>
+        <h1 className='font-heading font-medium text-[23px] leading-[29px] text-hPrimary p-[4px] mb-[12px]'>Important safety tips</h1>
         {
-            skills.map((skill) => <li>{skill}</li>)
+            skills.map((skill, idx) => <li key={idx} className='text-brownish font-heading font-normal text-[22px] leading-[36px]'>{skill}</li>)
         }
         </div>
         <div className='flex gap-[60px] mb-[74px]'>

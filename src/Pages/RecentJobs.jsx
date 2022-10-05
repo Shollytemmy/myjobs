@@ -3,7 +3,7 @@ import { JobDesc } from './JobDesc'
 import Button from '../Components/Atoms/Buttons'
 import { Image } from '../Components/Atoms/ImageComponent/Image'
 
-export const RecentJobs = ({logo, role, name, location, description, requirement1, requirement2, handleClick}) => {
+export const RecentJobs = ({id, logo, role, name, location, description, requirement1, requirement2, handleClick}) => {
   return ( 
   <section className='w-[1164px] h-[623px] container mx-auto border-2 rounded-md mb-[106px]'>
             <article className='flex justify-between'>
