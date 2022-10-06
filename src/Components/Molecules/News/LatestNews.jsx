@@ -3,6 +3,7 @@ import { Text } from '../../Atoms/Text'
 import { jobInfo } from '../../../data/data'
 import './News.scss'
 import { JobInfo } from './JobInfo'
+import { LatestNewsItems } from './LatestNewsItems'
 
 export const LatestNews = () => {
     const latest = `Latest news
@@ -16,15 +17,7 @@ expression of Apple Watch returns with two
 — titanium and ceramic.`
   return (
     <section>
-        <article className='latest_news'> 
-            <div className='left__side'>
-                <h1>{latest}</h1>
-            </div>
-            <div className='right__side'>
-                <h3 className=' news__update'>Our news update</h3>
-                <p className='news__card'>{news}</p>
-            </div>
-        </article>
+        <LatestNewsItems news={news} latest={latest} />
         {
             jobInfo.map((job) => <JobInfo key={job.id} {...job} />)
         }

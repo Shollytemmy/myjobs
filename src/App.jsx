@@ -1,6 +1,6 @@
 import { useState } from "react";
 // import {routes} from './route'
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route, useParams} from 'react-router-dom'
 import Home from './Pages/Home'
 import News from './Pages/News'
 import Jobs from './Pages/Job'
@@ -41,3 +41,4 @@ function App() {
 // }
 
 export default App;
+

@@ -8,14 +8,14 @@ export const SeeMoreInfo = ({jobInfo}) => {
     const [jobData, updateJob]= useState(jobInfo)
     const {jobID} = useParams()
     // console.log(useParams())
-    // console.log(jobID)
+    console.log(jobData)
     const getParticularJob = jobInfo[jobID - 1]
     // console.log(getParticularJob)
 
     const removeJob = (id) =>{
         const filtered = jobData.filter((job) => job.id !== id)
         updateJob(filtered)
-        console.log(filtered)
+        // console.log(filtered)
          
     }
 
@@ -23,7 +23,7 @@ export const SeeMoreInfo = ({jobInfo}) => {
     useEffect(()=>{
         removeJob(Number(jobID))
         return() =>{
-          updateJob([])
+          removeJob([])
         }
     }, [])
   return (

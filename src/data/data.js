@@ -3,7 +3,7 @@
 export const jobLists = [
     {
         id: 1,
-        logo: "images/cv.png",
+        logo: "/images/cv.png",
         name: "codeVillage",
         location: "Nigeria",
         role: "Graphic Design",
@@ -16,7 +16,7 @@ export const jobLists = [
 
      {
         id: 2,
-         logo: "public/images/it-2",
+         logo: "/images/it-2",
         name: "Item 7",
         location: "Ilorin Nigeria",
         role: "Restaurant Manager",
@@ -29,7 +29,7 @@ export const jobLists = [
     },
     {
         id: 3,
-        logo: "images/cv.png",
+        logo: "/images/cv.png",
         name: "codeVillage",
         location: "Nigeria",
         role: "Graphic Design",
@@ -41,7 +41,7 @@ export const jobLists = [
     },
     {
         id: 4,
-         logo: "images/it-7.png",
+         logo: "/images/it-7.png",
         name: "Item 7",
         location: "Ilorin Nigeria",
         role: "Restaurant Manager",
@@ -226,21 +226,23 @@ Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrice
 ]
 
 
-// Minimum Qualification
-// Experience Level
-// Experience Length
-
-
-     
-
-
-// jobDescription:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim hac massa consectetur vel et mauris. Ac mauris pulvinar eu urna ut ut. Tellus interdum duis proin morbi eget urna. Massa sed ut vulputate ullamcorper nulla sit. Id nulla mattis velit integer eget lacus ut lorem. Dolor ridiculus etiam feugiat risus ac dignissim. Odio tortor nulla consequat, adipiscing. Nibh aliquam praesent vel non ac. Phasellus laoreet felis velit amet pellentesque. Id ac facilisis purus aliquet sodales. Vel ipsum massa augue hendrerit in turpis sed. Accumsan eget et sed mauris.
-// Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrices quis sagittis arcu. Pellentesque erat risus.`,
-//         about:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius et tortor, facilisis ut amet auctor. Quisque facilisi rhoncus ac placerat lectus congue nulla. Et adipiscing neque pretium vivamus adipiscing amet, elementum. Eu enim nisl aenean gravida turpis urna, fringilla. Non tempus tortor lobortis sit consectetur viverra in. Leo, lectus viverra bibendum arcu praesent aliquet aliquam. Sagittis morbi a cursus sollicitudin ornare ac vel egestas faucibus. Mauris feugiat aliquam eu tortor nibh ornare hac.`,
-
-//         skills:[
-//             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi",
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi"
-//         ],
+export const aboutData = [
+    {
+        id:1,
+        name: "About",
+        logo: "/images/abtt.png",
+        summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus quam non justo nibh laoreet accumsan ultrices. Vestibulum, neque nec egestas blandit natoque donec ipsum lorem. Pharetra urna, porta tristique blandit feugiat. At lacinia nisi nisi, nulla. Sed in ornare hac semper et vestibulum, vel feugiat leo. Faucibus at massa non orci enim quis ac pretium congue. Duis ultrices tortor amet, mattis sollicitudin posuere. Adipiscing vitae sem donec sollicitudin volutpat vivamus felis ipsum. Dignissim vel fames leo nisl.`
+    },
+      {
+        id:2,
+        name: "Contact",
+        logo: "/images/cont.png",
+        summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus quam non justo nibh laoreet accumsan ultrices. Vestibulum, neque nec egestas blandit natoque donec ipsum lorem. Pharetra urna, porta tristique blandit feugiat. At lacinia nisi nisi, nulla. Sed in ornare hac semper et vestibulum, vel feugiat leo. Faucibus at massa non orci enim quis ac pretium congue. Duis ultrices tortor amet, mattis sollicitudin posuere. Adipiscing vitae sem donec sollicitudin volutpat vivamus felis ipsum. Dignissim vel fames leo nisl.`
+    },
+    {
+        id:3,
+        name: "Contact",
+        logo: "/images/vision.png",
+        summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus quam non justo nibh laoreet accumsan ultrices. Vestibulum, neque nec egestas blandit natoque donec ipsum lorem. Pharetra urna, porta tristique blandit feugiat. At lacinia nisi nisi, nulla. Sed in ornare hac semper et vestibulum, vel feugiat leo. Faucibus at massa non orci enim quis ac pretium congue. Duis ultrices tortor amet, mattis sollicitudin posuere. Adipiscing vitae sem donec sollicitudin volutpat vivamus felis ipsum. Dignissim vel fames leo nisl.`
+    }
+]

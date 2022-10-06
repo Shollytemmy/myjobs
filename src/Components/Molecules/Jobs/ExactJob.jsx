@@ -33,7 +33,7 @@ export const ExactJob = ({id, logo, name, specialization, location ,
                         <span>{postedDate}</span>
                     </div>
                 </div>
-                <Link to={`/job/${id}`} className='right__header'>
+                <Link to={ id ?`/job/${id}` : ''} className='right__header'>
                        
                   <span className='name__company'>{name}</span> 
                     <span>{specialization}</span>
@@ -80,3 +80,4 @@ export const ExactJob = ({id, logo, name, specialization, location ,
     </section>
   )
 }
+

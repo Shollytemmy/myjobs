@@ -34,7 +34,5 @@ export const SingleJob = (
     </div>
   )
 
-  // const getJobData = jobInfo[jobId - 1]
-
-  //   console.log(getJobData);
+  
 }
