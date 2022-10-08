@@ -248,3 +248,30 @@ export const aboutData = [
     },
   
 ]
+
+
+
+export const contactData =[
+    {
+        id: 1,
+        email: "info@myjobs.com.ng",
+        logo: "/images/1.png",
+        desc: "lorem ispum lorem ispumlorem ispum ",
+    },
+
+    {
+        id: 2,
+        email: "+234 8038 099388",
+        logo: "/images/2.png",
+        desc: "lorem ispum lorem ispumlorem ispum ",
+    },
+
+    {
+        id: 3,
+        email: "lorem ispum lorem ispumlorem ispum",
+        logo: "/images/3.png",
+        desc: "Support center --> ",
+    },
+]
+
+//Support center -->

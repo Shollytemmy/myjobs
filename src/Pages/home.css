@@ -5,22 +5,22 @@
 }
 .grad_txt{
    @apply font-heading font-medium text-[48px] leading-[68.5px] tracking-[1.5px]
-}
+}  
 
 .job_grad_txt{
    @apply w-[510px] h-[137px] mt-[4px] capitalize text-center font-heading font-medium text-[48px] leading-[68.5px] tracking-[1.5px]
 }
 
 .input{
-   @apply block w-[277px] h-[60px] px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 mb-[60px]
+   @apply block w-[277px] h-[60px] text-xl font-normal text-gray-700 bg-white bg-clip-padding transition ease-in-out m-0 mb-[60px]
 }
 
 .form-select {
-  @apply mb-3 block mx-[30px] w-[277px] h-[60px] px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 
+  @apply mb-3 block mx-[30px] w-[277px] h-[60px] px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding transition ease-in-out m-0 
 }
 
 .search{
-   @apply relative flex-auto min-w-0 block w-[584px] h-[60px] px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0
+   @apply relative flex-auto min-w-0 block w-[584px] h-[60px] text-base font-normal text-gray-700 bg-white bg-clip-padding transition ease-in-out m-0
 }
 
 .lorem{

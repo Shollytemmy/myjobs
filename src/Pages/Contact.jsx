@@ -1,4 +1,5 @@
 import React from 'react'
+import { Form } from '../Components/Molecules/Contact/Form'
 import { LatestNewsItems } from '../Components/Molecules/News/LatestNewsItems'
 import PageTemplate from '../Components/Templates/PageTemplate'
 
@@ -24,6 +25,7 @@ speaking to us as easy as possible.`
           custom="text-hPrimary font-normal text-[22px] leading-[36px] whitespace-pre"
           icon=""
            />
+           <Form />
     </PageTemplate>
   )
 }
