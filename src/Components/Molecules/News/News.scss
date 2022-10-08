@@ -7,13 +7,15 @@
 
 }
 
+
+
 .right__side{
     @apply bg-hPrimary text-ofWhite w-[466px] h-[283px] mb-[38px] font-heading
 
 }
 
 .news__update{
-    @apply font-heading text-[24px] leading-[58px] font-bold ml-[24px] w-[216px] text-center
+    @apply font-heading text-[24px] leading-[58px] font-bold ml-[24px] w-[290px] text-center
 }
 
 .news__card{
@@ -43,5 +45,7 @@
 .name__company{
     @apply font-bold text-[24px] leading-[29px] text-brownish tracking-[0.5px] font-heading
 }
+
+
 
 

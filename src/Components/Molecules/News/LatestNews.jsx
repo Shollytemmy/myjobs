@@ -15,9 +15,11 @@ Watch returns with two iconic materials
 expression of Apple Watch returns with two
  iconic materials
 — titanium and ceramic.`
+
+const update = `Our news update`
   return (
     <section>
-        <LatestNewsItems news={news} latest={latest} />
+        <LatestNewsItems news={news} latest={latest} update={update} />
         {
             jobInfo.map((job) => <JobInfo key={job.id} {...job} />)
         }

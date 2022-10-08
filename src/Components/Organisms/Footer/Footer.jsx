@@ -8,6 +8,8 @@ import logo from '../../Atoms/Images/f-logo.svg'
 
 import { Table } from '../../Molecules/Footer/Table'
 const Footer = () => {
+
+  
   return (
     <footer className="footer">
       <aside className='flex justify-between'>
@@ -33,7 +35,7 @@ const Footer = () => {
        <hr className='border-slate-400'  />
        
       <aside className='bottom_aside__footer '>
-        <p className='my-auto text-white text-[18px] leading-[20px] font-medium font-tableH text-[rgba(255, 255, 255, 0.5)]'> Copyright &copy; 2020</p>
+        <p className='my-auto text-white text-[18px] leading-[20px] font-medium font-tableH text-[rgba(255, 255, 255, 0.5)]'> Copyright &copy; {new Date().getFullYear()}</p>
         <div className='social_icons'>
           <div className=' icons__footer'>
             <a href="https://www.facebook.com" target="_blank"><BsFacebook className=' ' style={{color: '#FFFFFF'}}/></a>

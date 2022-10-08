@@ -11,11 +11,13 @@ expression of Apple Watch returns with two
  iconic materials
 — titanium and ceramic.`
 
+const service = `What we do`
+
 const About = () => {
   return (
    <PageLayout> 
-    <LatestNewsItems news={news} text="/images/about.png" />
-    <div className='mx-[127px] border mb-[65px]'>
+    <LatestNewsItems news={news} text="/images/about.png" update={service} />
+    <div className='mx-[127px] mb-[65px]'>
       {aboutData.map((data) => <AboutInfo key={data.id} {...data} />)}
 
     </div>

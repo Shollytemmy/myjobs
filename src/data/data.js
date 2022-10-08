@@ -229,8 +229,15 @@ Ultrices suspendisse non phasellus ligula massa. Egestas aenean bibendum ultrice
 export const aboutData = [
     {
         id:1,
-        name: "About",
+        name: "About Us",
         logo: "/images/abtt.png",
+        summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus quam non justo nibh laoreet accumsan ultrices. Vestibulum, neque nec egestas blandit natoque donec ipsum lorem. Pharetra urna, porta tristique blandit feugiat. At lacinia nisi nisi, nulla. Sed in ornare hac semper et vestibulum, vel feugiat leo. Faucibus at massa non orci enim quis ac pretium congue. Duis ultrices tortor amet, mattis sollicitudin posuere. Adipiscing vitae sem donec sollicitudin volutpat vivamus felis ipsum. Dignissim vel fames leo nisl.`
+    },
+
+      {
+        id:3,
+        name: "Our Vision",
+        logo: "/images/vision.png",
         summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus quam non justo nibh laoreet accumsan ultrices. Vestibulum, neque nec egestas blandit natoque donec ipsum lorem. Pharetra urna, porta tristique blandit feugiat. At lacinia nisi nisi, nulla. Sed in ornare hac semper et vestibulum, vel feugiat leo. Faucibus at massa non orci enim quis ac pretium congue. Duis ultrices tortor amet, mattis sollicitudin posuere. Adipiscing vitae sem donec sollicitudin volutpat vivamus felis ipsum. Dignissim vel fames leo nisl.`
     },
       {
@@ -239,10 +246,5 @@ export const aboutData = [
         logo: "/images/cont.png",
         summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus quam non justo nibh laoreet accumsan ultrices. Vestibulum, neque nec egestas blandit natoque donec ipsum lorem. Pharetra urna, porta tristique blandit feugiat. At lacinia nisi nisi, nulla. Sed in ornare hac semper et vestibulum, vel feugiat leo. Faucibus at massa non orci enim quis ac pretium congue. Duis ultrices tortor amet, mattis sollicitudin posuere. Adipiscing vitae sem donec sollicitudin volutpat vivamus felis ipsum. Dignissim vel fames leo nisl.`
     },
-    {
-        id:3,
-        name: "Contact",
-        logo: "/images/vision.png",
-        summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus quam non justo nibh laoreet accumsan ultrices. Vestibulum, neque nec egestas blandit natoque donec ipsum lorem. Pharetra urna, porta tristique blandit feugiat. At lacinia nisi nisi, nulla. Sed in ornare hac semper et vestibulum, vel feugiat leo. Faucibus at massa non orci enim quis ac pretium congue. Duis ultrices tortor amet, mattis sollicitudin posuere. Adipiscing vitae sem donec sollicitudin volutpat vivamus felis ipsum. Dignissim vel fames leo nisl.`
-    }
+  
 ]
